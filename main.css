@@ -1,0 +1,6 @@
+:has([class*=title_] > [class*=title_] > [style*="353179320644141057"]) header[class*=header_] > [class*=headerContent_] > [class*=guildDropdown_] > [class*=guildBadgeAndName_] > h2 {
+  font-size: 0px;
+}
+:has([class*=title_] > [class*=title_] > [style*="353179320644141057"]) header[class*=header_] > [class*=headerContent_] > [class*=guildDropdown_] > [class*=guildBadgeAndName_] > h2:before {
+  content: url(https://raw.githubusercontent.com/kckarnige/GuildNameGraphic/refs/heads/main/res/353179320644141057.svg);
+}/*# sourceMappingURL=main.css.map */

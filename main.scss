@@ -1,0 +1,15 @@
+$ids:
+"353179320644141057";
+
+@each $id in $ids {
+    :has([class*="title_"]>[class*="title_"]>[style*="#{$id}"])
+    {
+        header[class*="header_"]>[class*="headerContent_"]>[class*="guildDropdown_"]>[class*="guildBadgeAndName_"]>h2
+        {
+            font-size: 0px;
+            &:before {
+                content: url(https://raw.githubusercontent.com/kckarnige/GuildNameGraphic/refs/heads/main/res/#{$id}.svg);
+            }
+        }
+    }
+}
